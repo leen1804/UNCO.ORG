@@ -3,13 +3,42 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.20",
+    "@react-three/drei": "^9.92.5",
+    "@react-three/fiber": "^8.15.12",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "formik": "^2.4.5",
+    "framer-motion": "^10.16.16",
+    "lodash": "^4.17.21",
+    "ma": "^0.0.9",
+    "postcss": "^8.4.32",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-redux": "^7.2.9",
+    "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scroll": "^1.9.0",
+    "react-slick": "^0.29.0",
+    "react-tilt": "^1.0.2",
+    "react-vertical-timeline-component": "^3.6.0",
+    "redux": "^4.2.1",
+    "redux-thunk": "^2.4.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.0.8",
+    "tailwindcss": "^3.3.7",
+    "three": "^0.157.0",
+    "typed.js": "^2.1.0",
+    "upper-case": "^3.0.0",
+    "web-vitals": "^2.1.4",
+    "yarn": "^1.22.21"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,12 +46,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
+  
   "browserslist": {
     "production": [
       ">0.2%",
@@ -34,5 +58,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
   }
 }
